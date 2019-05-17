@@ -7,9 +7,9 @@ class SessionsController < ApplicationController
         u.email = @auth[:info][:email]
         u.name = @auth[:info][:name]
     end
-    
+
     session[:user_id] = user.id
-    
+
   end
 
 end
