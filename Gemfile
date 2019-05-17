@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'pry'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'dotenv-rails'
